@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestAll]" parallel="classes">
+  <test name="FileOpener">
+    <classes>
+      <class name="cyb.ttp.lab2.Test_0"/>
+    </classes>
+  </test> <!-- FileOpener -->
+  <test name="WordsComparator">
+    <classes>
+      <class name="cyb.ttp.lab2.Test_1"/>
+    </classes>
+  </test> <!-- WordsComparator -->
+</suite> <!-- Failed suite [TestAll] -->

@@ -1,0 +1,15 @@
+D:\c\kubick\sharp\WindowsFormsAppTriangle\bin\Debug\netcoreapp3.1\WindowsFormsAppTriangle.exe
+D:\c\kubick\sharp\WindowsFormsAppTriangle\bin\Debug\netcoreapp3.1\WindowsFormsAppTriangle.deps.json
+D:\c\kubick\sharp\WindowsFormsAppTriangle\bin\Debug\netcoreapp3.1\WindowsFormsAppTriangle.runtimeconfig.json
+D:\c\kubick\sharp\WindowsFormsAppTriangle\bin\Debug\netcoreapp3.1\WindowsFormsAppTriangle.runtimeconfig.dev.json
+D:\c\kubick\sharp\WindowsFormsAppTriangle\bin\Debug\netcoreapp3.1\WindowsFormsAppTriangle.dll
+D:\c\kubick\sharp\WindowsFormsAppTriangle\bin\Debug\netcoreapp3.1\WindowsFormsAppTriangle.pdb
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.csprojAssemblyReference.cache
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.Form1.resources
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.csproj.GenerateResource.cache
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.AssemblyInfoInputs.cache
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.AssemblyInfo.cs
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.csproj.CoreCompileInputs.cache
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.dll
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.pdb
+D:\c\kubick\sharp\WindowsFormsAppTriangle\obj\Debug\netcoreapp3.1\WindowsFormsAppTriangle.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\c\kubick\sharp\ConsoleAppMediator\bin\Debug\netcoreapp3.1\ConsoleAppMediator.exe
+D:\c\kubick\sharp\ConsoleAppMediator\bin\Debug\netcoreapp3.1\ConsoleAppMediator.deps.json
+D:\c\kubick\sharp\ConsoleAppMediator\bin\Debug\netcoreapp3.1\ConsoleAppMediator.runtimeconfig.json
+D:\c\kubick\sharp\ConsoleAppMediator\bin\Debug\netcoreapp3.1\ConsoleAppMediator.runtimeconfig.dev.json
+D:\c\kubick\sharp\ConsoleAppMediator\bin\Debug\netcoreapp3.1\ConsoleAppMediator.dll
+D:\c\kubick\sharp\ConsoleAppMediator\bin\Debug\netcoreapp3.1\ConsoleAppMediator.pdb
+D:\c\kubick\sharp\ConsoleAppMediator\obj\Debug\netcoreapp3.1\ConsoleAppMediator.AssemblyInfoInputs.cache
+D:\c\kubick\sharp\ConsoleAppMediator\obj\Debug\netcoreapp3.1\ConsoleAppMediator.AssemblyInfo.cs
+D:\c\kubick\sharp\ConsoleAppMediator\obj\Debug\netcoreapp3.1\ConsoleAppMediator.csproj.CoreCompileInputs.cache
+D:\c\kubick\sharp\ConsoleAppMediator\obj\Debug\netcoreapp3.1\ConsoleAppMediator.dll
+D:\c\kubick\sharp\ConsoleAppMediator\obj\Debug\netcoreapp3.1\ConsoleAppMediator.pdb
+D:\c\kubick\sharp\ConsoleAppMediator\obj\Debug\netcoreapp3.1\ConsoleAppMediator.genruntimeconfig.cache
+D:\c\kubick\sharp\ConsoleAppMediator\obj\Debug\netcoreapp3.1\ConsoleAppMediator.csprojAssemblyReference.cache

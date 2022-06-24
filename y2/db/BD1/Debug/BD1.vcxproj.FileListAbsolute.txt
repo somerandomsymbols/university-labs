@@ -1,0 +1,2 @@
+D:\c\kubick\labs\BD1\Debug\BD1.exe
+D:\c\kubick\labs\BD1\Debug\BD1.pdb

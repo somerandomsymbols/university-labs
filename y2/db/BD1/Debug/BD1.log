@@ -1,0 +1,12 @@
+﻿  main.cpp
+D:\c\kubick\labs\BD1\main.cpp(28,8): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+D:\c\kubick\labs\BD1\main.cpp(61,8): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+D:\c\kubick\labs\BD1\main.cpp(93,8): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+D:\c\kubick\labs\BD1\main.cpp(191,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\BD1\main.cpp(200,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\BD1\main.cpp(209,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\BD1\main.cpp(220,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\BD1\main.cpp(231,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\BD1\main.cpp(440,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\BD1\main.cpp(466,22): warning C4018: <: несоответствие типов со знаком и без знака
+  BD1.vcxproj -> D:\c\kubick\labs\BD1\Debug\BD1.exe

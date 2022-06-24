@@ -1,0 +1,2 @@
+D:\c\kubick\labs\CM2\Debug\CM2.exe
+D:\c\kubick\labs\CM2\Debug\CM2.pdb

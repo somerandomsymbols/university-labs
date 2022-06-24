@@ -1,0 +1,51 @@
+﻿@model Etap12.Insurance
+
+@{
+    ViewData["Title"] = "Редагувати страхування";
+    ViewData["NoIndex"] = true;
+    ViewData["AutocompleteScript"] = true;
+    ViewData["EntityId"] = "PatientId";
+    ViewData["EntityName"] = "PatientName";
+    ViewData["EntityFilter"] = "/api/Patients/filter";
+}
+
+<h1>Редагувати страхування</h1>
+
+<h4>Страхування</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="InsuranceId" />
+            <div class="form-group">
+                <label asp-for="Balance" class="control-label"></label>
+                <input asp-for="Balance" class="form-control" />
+                <span asp-validation-for="Balance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InsuranceCases" class="control-label"></label>
+                <input asp-for="InsuranceCases" class="form-control" />
+                <span asp-validation-for="InsuranceCases" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Patient.PatientName" class="control-label"></label>
+                <input id="PatientName" asp-for="Patient.PatientName" class="form-control" />
+                <span asp-validation-for="Patient.PatientName" class="text-danger"></span>
+            </div>
+            <ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
+            <input type="hidden" asp-for="PatientId" id="PatientId" />
+            <div class="form-group">
+                <input type="submit" value="Зберегти" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Insurances" asp-action="Index">Назад</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

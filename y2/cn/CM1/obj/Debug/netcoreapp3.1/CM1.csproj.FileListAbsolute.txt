@@ -1,0 +1,13 @@
+D:\c\kubick\labs\CM1\CM1\obj\Debug\netcoreapp3.1\CM1.csprojAssemblyReference.cache
+D:\c\kubick\labs\CM1\CM1\obj\Debug\netcoreapp3.1\CM1.AssemblyInfoInputs.cache
+D:\c\kubick\labs\CM1\CM1\obj\Debug\netcoreapp3.1\CM1.AssemblyInfo.cs
+D:\c\kubick\labs\CM1\CM1\obj\Debug\netcoreapp3.1\CM1.csproj.CoreCompileInputs.cache
+D:\c\kubick\labs\CM1\CM1\bin\Debug\netcoreapp3.1\CM1.exe
+D:\c\kubick\labs\CM1\CM1\bin\Debug\netcoreapp3.1\CM1.deps.json
+D:\c\kubick\labs\CM1\CM1\bin\Debug\netcoreapp3.1\CM1.runtimeconfig.json
+D:\c\kubick\labs\CM1\CM1\bin\Debug\netcoreapp3.1\CM1.runtimeconfig.dev.json
+D:\c\kubick\labs\CM1\CM1\bin\Debug\netcoreapp3.1\CM1.dll
+D:\c\kubick\labs\CM1\CM1\bin\Debug\netcoreapp3.1\CM1.pdb
+D:\c\kubick\labs\CM1\CM1\obj\Debug\netcoreapp3.1\CM1.dll
+D:\c\kubick\labs\CM1\CM1\obj\Debug\netcoreapp3.1\CM1.pdb
+D:\c\kubick\labs\CM1\CM1\obj\Debug\netcoreapp3.1\CM1.genruntimeconfig.cache

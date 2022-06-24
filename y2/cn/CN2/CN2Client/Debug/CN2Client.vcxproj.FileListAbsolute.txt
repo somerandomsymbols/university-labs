@@ -1,0 +1,4 @@
+D:\c\kubick\labs\Warwick\CN2Client\Debug\CN2Client.exe
+D:\c\kubick\labs\Warwick\CN2Client\Debug\CN2Client.pdb
+D:\c\kubick\labs\CN2\CN2Client\Debug\CN2Client.exe
+D:\c\kubick\labs\CN2\CN2Client\Debug\CN2Client.pdb

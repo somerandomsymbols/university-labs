@@ -1,0 +1,46 @@
+﻿@model Etap12.Hospital
+
+@{
+    ViewData["Title"] = "Видалити лікарню";
+    ViewData["NoIndex"] = true;
+}
+
+<h1>Видалити лікарню</h1>
+
+<h3>Ви справді хочете видалити лікарню?</h3>
+<div>
+    <h4>Лікарня</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HospitalName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HospitalName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HospitalPhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HospitalPhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HospitalAdress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HospitalAdress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HospitalPhoto)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HospitalPhoto)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="HospitalId" />
+        <input type="submit" value="Видалити" class="btn btn-danger" /> |
+        <a asp-controller="Hospitals" asp-action="Index">Назад</a>
+    </form>
+</div>

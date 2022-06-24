@@ -1,0 +1,12 @@
+#S#
+#S#      b #B# #A# #C#
+!        #D# c #B# #A#
+!        #B# #A# #D# b a
+!        #A# c #C# b #B#
+#A#      
+!        a #A# c
+#B#      
+!        b #B#
+#C#      
+!        c #C#
+#D#      d #D#

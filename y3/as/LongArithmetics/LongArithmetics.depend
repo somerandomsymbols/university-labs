@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1635242318 source:d:\iii\as\longarithmetics\longint.cpp
+	"LongInt.h"
+
+1635242303 d:\iii\as\longarithmetics\longint.h
+	<bits/stdc++.h>
+
+1635242952 source:d:\iii\as\longarithmetics\main.cpp
+	"LongInt.h"
+

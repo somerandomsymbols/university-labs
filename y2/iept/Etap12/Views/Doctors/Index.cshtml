@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Etap12.Doctor>
+
+@{
+    if (ViewBag.HospitalName != null)
+    {
+        ViewData["Title"] = "Лікарі в лікарні " + ViewBag.HospitalName;
+        ViewData["Description"] = "Doctors in " + ViewBag.HospitalName;
+    }
+    else
+    {
+        ViewData["Title"] = "Лікарі";
+        ViewData["Description"] = "List of doctors";
+    }
+}
+
+@if (ViewBag.HospitalName != null)
+{
+    <h1>Список лікарів в лікарні @ViewBag.HospitalName</h1>
+    <p>@Html.ActionLink("Додати лікаря", "Create", new { hospitalId = @ViewBag.HospitalId })</p>
+}
+else
+{
+    <h1>Список лікарів</h1>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Education)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateStartWork)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hospital)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr itemtype="http://schema.org/Person" itemscope>
+                <td itemprop="name">
+                    @Html.DisplayFor(modelItem => item.DoctorName)
+                </td>
+                <td itemprop="alumniOf">
+                    @Html.DisplayFor(modelItem => item.Education)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateStartWork)
+                </td>
+                <td itemprop="telephone">
+                    @Html.DisplayFor(modelItem => item.DoctorPhoneNumber)
+                </td>
+                <td itemprop="worksfor">
+                    @Html.DisplayFor(modelItem => item.Hospital.HospitalName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.DoctorId">Редагувати</a> |
+                    <a asp-action="Details" asp-route-id="@item.DoctorId">Детальніше</a> |
+                    <a asp-controller="Patients" asp-action="Index" asp-route-id="@item.DoctorId">Пацієнти</a> |
+                    <a asp-action="Delete" asp-route-id="@item.DoctorId">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

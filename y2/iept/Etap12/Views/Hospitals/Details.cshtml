@@ -1,0 +1,45 @@
+﻿@model Etap12.Hospital
+
+@{
+    ViewData["Title"] = "Детальніше";
+    ViewData["Description"] = "Info about " + @Model.HospitalName;
+}
+
+<h1>Лікарня: @Model.HospitalName</h1>
+
+<div itemtype="http://schema.org/Organization" itemscope>
+    <div class="contactinfo">
+        <h4>Контактна інформація</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-6">
+                @Html.DisplayNameFor(model => model.HospitalPhoneNumber)
+            </dt>
+            <dd class="col-sm-6" itemprop="telephone">
+                @Html.DisplayFor(model => model.HospitalPhoneNumber)
+            </dd>
+        </dl>
+    </div>
+    <link itemprop="image" href="@Model.HospitalPhoto" />
+    <img src=@Model.HospitalPhoto alt="посилання недійсне" width="300" height="200">
+    <h4>Основні відомості</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HospitalName)
+        </dt>
+        <dd class="col-sm-10" itemprop="name">
+            @Html.DisplayFor(model => model.HospitalName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HospitalAdress)
+        </dt>
+        <dd class="col-sm-10" itemprop="address">
+            @Html.DisplayFor(model => model.HospitalAdress)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.HospitalId">Редагувати</a> |
+    <a asp-controller="Hospitals" asp-action="Index">Назад</a>
+</div>

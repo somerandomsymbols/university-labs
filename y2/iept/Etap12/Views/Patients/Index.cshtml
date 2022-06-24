@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Etap12.Patient>
+
+@{
+    ViewData["NoIndex"] = true;
+
+    if (ViewBag.DoctorName != null)
+    {
+        ViewData["Title"] = "Пацієнти у лікаря " + ViewBag.DoctorName;
+    }
+    else
+    {
+        ViewData["Title"] = "Пацієнти";
+    }
+}
+
+@if (ViewBag.DoctorName != null)
+{
+    <h1>Список пацієнтів у лікаря @ViewBag.DoctorName</h1>
+    <p>@Html.ActionLink("Додати нового пацієнта", "Create", new { doctorId = @ViewBag.DoctorId })</p>
+}
+else
+{
+    <h1>Список пацієнтів</h1>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HomeAdress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Height)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doctor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfBirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HomeAdress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientPhoneNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Height)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Weight)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Doctor.DoctorName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PatientId">Редагувати</a> |
+                    <a asp-action="Details" asp-route-id="@item.PatientId">Детальніше</a> |
+                    <a asp-controller="Insurances" asp-action="Index" asp-route-id="@item.PatientId">Страхування</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PatientId">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

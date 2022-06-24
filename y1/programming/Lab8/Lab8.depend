@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1586616506 source:d:\c\kubick\labs\efremov8\lab8\g2.cpp
+	"g2.h"
+
+1586616001 d:\c\kubick\labs\efremov8\lab8\g2.h
+	<bits/stdc++.h>
+
+1586616270 source:d:\c\kubick\labs\efremov8\lab8\main.cpp
+	<bits/stdc++.h>
+	"g2.h"
+	"g2use.h"
+
+1586616239 source:d:\c\kubick\labs\efremov8\lab8\g2use.cpp
+	"g2.h"
+	"g2use.h"
+
+1586616228 d:\c\kubick\labs\efremov8\lab8\g2use.h
+	<bits/stdc++.h>
+

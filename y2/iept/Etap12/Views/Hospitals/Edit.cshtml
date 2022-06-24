@@ -1,0 +1,50 @@
+﻿@model Etap12.Hospital
+
+@{
+    ViewData["Title"] = "Редагувати лікарню";
+    ViewData["NoIndex"] = true;
+}
+
+<h1>Редагувати лікарню</h1>
+
+<h4>Лікарня</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="HospitalId" />
+            <div class="form-group">
+                <label asp-for="HospitalName" class="control-label"></label>
+                <input asp-for="HospitalName" class="form-control" />
+                <span asp-validation-for="HospitalName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HospitalPhoneNumber" class="control-label"></label>
+                <input asp-for="HospitalPhoneNumber" class="form-control" />
+                <span asp-validation-for="HospitalPhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HospitalAdress" class="control-label"></label>
+                <input asp-for="HospitalAdress" class="form-control" />
+                <span asp-validation-for="HospitalAdress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HospitalPhoto" class="control-label"></label>
+                <input asp-for="HospitalPhoto" class="form-control" />
+                <span asp-validation-for="HospitalPhoto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Зберегти" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Hospitals" asp-action="Index">Назад</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

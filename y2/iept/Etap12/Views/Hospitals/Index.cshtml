@@ -1,0 +1,141 @@
+﻿@model IEnumerable<Etap12.Hospital>
+
+@{
+    ViewData["Title"] = "Лікарні";
+    ViewData["Description"] = "List of hospitals";
+}
+
+<h1>Список лікарень</h1>
+
+<div>
+    <h3>Оберіть excel-файл для заватаження</h3>
+    @using (Html.BeginForm("Import", "Hospitals", FormMethod.Post, new { enctype = "multipart/form-data", id = "frm-excel" }))
+    {
+        <div>
+            Завантажте Excel-файл:
+            <input type="file" name="fileExcel" id="fileExcel" />
+            <div>
+                <input type="submit" value="Завантажити" />
+            </div>
+        </div>
+    }
+</div>
+<div>
+    <h3>Завантаження інформації в файл</h3>
+    <a asp-action="Export">Завантажити</a>
+</div>
+
+<p>
+    <a asp-action="Create">Створити нову лікарню</a>
+</p>
+<div id="HospitalsMap" style="position: relative; width: 400px; height: 200px;"></div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HospitalName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HospitalPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HospitalAdress)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr itemtype="http://schema.org/Organization" itemscope>
+                <td itemprop="name">
+                    @Html.DisplayFor(modelItem => item.HospitalName)
+                </td>
+                <td itemprop="telephone">
+                    @Html.DisplayFor(modelItem => item.HospitalPhoneNumber)
+                </td>
+                <td itemprop="address">
+                    @Html.DisplayFor(modelItem => item.HospitalAdress)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.HospitalId">Редагувати</a> |
+                    <a asp-action="Details" asp-route-id="@item.HospitalId">Детальніше</a> |
+                    <a asp-controller="Doctors" asp-action="Index" asp-route-id="@item.HospitalId">Лікарі</a> |
+                    <a asp-action="Delete" asp-route-id="@item.HospitalId">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="container">
+    <div id="chart1"></div>
+</div>
+@section scripts{
+    <script type "text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            $.get('/api/Charts/JsonData', function (JsonData) {
+                data = google.visualization.arrayToDataTable(JsonData, false);
+                var option = {
+                    title: "Кількість пацієнтів по лікарнях",
+                    width: 500,
+                    height: 400
+                };
+                chart = new google.visualization.PieChart(document.getElementById('chart1'));
+                chart.draw(data, option);
+            })
+        }
+    </script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/@@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic29tZXJhbmRvbXN5bWJvbHMiLCJhIjoiY2t1enI3aXl0M21wbDJwcXJ3ODR1NmltcyJ9.g3VJjufuyNUF_vPlZMBQNw';
+        const mapboxClient = mapboxSdk({ accessToken: mapboxgl.accessToken });
+        const map = new mapboxgl.Map({
+            container: 'HospitalsMap',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [0, 0],
+            zoom: 1
+        });
+
+        function drawItem(address, name) {
+            mapboxClient.geocoding
+                .forwardGeocode({
+                    query: address,
+                    autocomplete: false,
+                    limit: 1
+                })
+                .send()
+                .then((response) => {
+                    if (
+                        !response ||
+                        !response.body ||
+                        !response.body.features ||
+                        !response.body.features.length
+                    ) {
+                        console.error('Invalid response:');
+                        console.error(response);
+                        return;
+                    }
+                    const feature = response.body.features[0];
+
+
+
+                    // Create a marker and add it to the map.
+                    new mapboxgl.Marker().setLngLat(feature.center).setPopup(new mapboxgl.Popup({ closeButton: false, closeOnClick: false }).setHTML('<font size="1">' + name + '</font>').setMaxWidth('25%')).addTo(map).togglePopup();
+                });
+        }
+
+        @foreach (var h in Model)
+        {
+            @:drawItem('@(h.HospitalAdress)','@(h.HospitalName)');
+        }
+    </script>
+}
+

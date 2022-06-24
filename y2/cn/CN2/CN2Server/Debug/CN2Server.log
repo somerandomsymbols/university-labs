@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\c\kubick\labs\CN2\CN2Server\main.cpp(29,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CN2\CN2Server\main.cpp(45,14): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CN2\CN2Server\main.cpp(64,18): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CN2\CN2Server\main.cpp(75,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CN2\CN2Server\main.cpp(118,14): warning C4018: <: несоответствие типов со знаком и без знака
+  CN2Server.vcxproj -> D:\c\kubick\labs\CN2\CN2Server\Debug\CN2Server.exe

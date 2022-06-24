@@ -1,0 +1,23 @@
+<h1>Real Time System Data</h1>
+<div id="appout"></div>
+<p><i>See console log for more details</i></p>
+
+<script>
+    var ws = new WebSocket('ws://localhost:40510');
+
+    ws.onopen = function () {
+        console.log('websocket is connected ...')
+        ws.send('connected')
+    }
+
+    ws.onmessage = function (ev) {
+        console.log(ev);
+        var cpu = JSON.parse(ev.data);
+        //var cpu = ev.data;
+        // console.log(cpu);
+        // console.log('AVG', cpu.avg[0]);
+        // console.log('MEMORY', cpu.memory);
+        // console.log('FREE', cpu.free);
+        document.getElementById('appout').innerHTML = '<b>MINUTE AVERAGE LOAD:</b> ' + cpu.avg[0] + ';<br /><b>TOTAL MEMORY:</b> ' + cpu.memory + ';<br /><b>FREE MEMORY:</b> ' + cpu.free;
+    }
+</script>

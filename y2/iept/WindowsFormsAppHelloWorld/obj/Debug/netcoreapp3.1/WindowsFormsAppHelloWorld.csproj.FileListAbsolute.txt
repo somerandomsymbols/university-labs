@@ -1,0 +1,15 @@
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\bin\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.exe
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\bin\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.deps.json
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\bin\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.runtimeconfig.json
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\bin\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.runtimeconfig.dev.json
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\bin\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.dll
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\bin\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.pdb
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.csprojAssemblyReference.cache
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.Form1.resources
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.csproj.GenerateResource.cache
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.AssemblyInfoInputs.cache
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.AssemblyInfo.cs
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.csproj.CoreCompileInputs.cache
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.dll
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.pdb
+D:\c\kubick\sharp\WindowsFormsAppHelloWorld\obj\Debug\netcoreapp3.1\WindowsFormsAppHelloWorld.genruntimeconfig.cache

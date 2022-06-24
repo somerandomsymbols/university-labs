@@ -1,0 +1,13 @@
+D:\c\kubick\sharp\ConsoleAppHelloWorld\bin\Debug\netcoreapp3.1\ConsoleAppHelloWorld.exe
+D:\c\kubick\sharp\ConsoleAppHelloWorld\bin\Debug\netcoreapp3.1\ConsoleAppHelloWorld.deps.json
+D:\c\kubick\sharp\ConsoleAppHelloWorld\bin\Debug\netcoreapp3.1\ConsoleAppHelloWorld.runtimeconfig.json
+D:\c\kubick\sharp\ConsoleAppHelloWorld\bin\Debug\netcoreapp3.1\ConsoleAppHelloWorld.runtimeconfig.dev.json
+D:\c\kubick\sharp\ConsoleAppHelloWorld\bin\Debug\netcoreapp3.1\ConsoleAppHelloWorld.dll
+D:\c\kubick\sharp\ConsoleAppHelloWorld\bin\Debug\netcoreapp3.1\ConsoleAppHelloWorld.pdb
+D:\c\kubick\sharp\ConsoleAppHelloWorld\obj\Debug\netcoreapp3.1\ConsoleAppHelloWorld.csprojAssemblyReference.cache
+D:\c\kubick\sharp\ConsoleAppHelloWorld\obj\Debug\netcoreapp3.1\ConsoleAppHelloWorld.AssemblyInfoInputs.cache
+D:\c\kubick\sharp\ConsoleAppHelloWorld\obj\Debug\netcoreapp3.1\ConsoleAppHelloWorld.AssemblyInfo.cs
+D:\c\kubick\sharp\ConsoleAppHelloWorld\obj\Debug\netcoreapp3.1\ConsoleAppHelloWorld.csproj.CoreCompileInputs.cache
+D:\c\kubick\sharp\ConsoleAppHelloWorld\obj\Debug\netcoreapp3.1\ConsoleAppHelloWorld.dll
+D:\c\kubick\sharp\ConsoleAppHelloWorld\obj\Debug\netcoreapp3.1\ConsoleAppHelloWorld.pdb
+D:\c\kubick\sharp\ConsoleAppHelloWorld\obj\Debug\netcoreapp3.1\ConsoleAppHelloWorld.genruntimeconfig.cache

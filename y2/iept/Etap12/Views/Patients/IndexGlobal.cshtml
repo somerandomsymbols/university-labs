@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Etap12.Patient>
+
+@{
+    ViewData["Title"] = "Пацієнти";
+}
+
+<h1>Пацієнти</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HomeAdress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Height)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doctor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HomeAdress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientPhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Height)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Weight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Doctor.DoctorName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PatientId">Редагувати</a> |
+                <a asp-action="Details" asp-route-id="@item.PatientId">Детальніше</a> |
+                <a asp-action="Insurances" asp-route-id="@item.PatientId">Страхування</a> |
+                <a asp-action="Delete" asp-route-id="@item.PatientId">Видалити</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<div class="container">
+    <div id="chart1"></div>
+</div>
+@section scripts{
+    <script type "text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            $.get('/api/Charts/PatientsData', function (PatientsData) {
+                data = google.visualization.arrayToDataTable(PatientsData, false);
+                var option = {
+                    title: "Сума на рахунку пацієнтів",
+                    width: 500,
+                    height: 400
+                };
+                chart = new google.visualization.ColumnChart(document.getElementById('chart1'));
+                chart.draw(data, option);
+            })
+        }
+    </script>
+}
+

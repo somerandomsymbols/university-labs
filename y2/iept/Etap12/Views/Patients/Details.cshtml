@@ -1,0 +1,71 @@
+﻿@model Etap12.Patient
+
+@{
+    ViewData["Title"] = "Сторінка пацієнта";
+    ViewData["NoIndex"] = true;
+}
+
+<h1>Пацієнт: @Model.PatientName</h1>
+
+<div>
+    <div class="contactinfo">
+        <h4>Контактна інформація</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-6">
+                @Html.DisplayNameFor(model => model.PatientPhoneNumber)
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.PatientPhoneNumber)
+            </dd>
+        </dl>
+    </div>
+    <img src=@Model.Passport alt="посилання недійсне" width="300" height="200">
+    <h4>Особисті дані</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PatientName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PatientName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HomeAdress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HomeAdress)
+        </dd>
+    </dl>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Doctor)
+        </dt>
+        <dd class="col-sm-10">
+            <a asp-controller="Doctors" asp-action="Details" asp-route-id="@Model.DoctorId">@Html.DisplayFor(model => model.Doctor.DoctorName)</a>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.PatientId">Редагувати</a> |
+    <a asp-controller="Patients" asp-action="Index">Назад</a>
+</div>

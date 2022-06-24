@@ -1,0 +1,74 @@
+﻿  main.cpp
+D:\c\kubick\labs\CM3\main.cpp(151,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(148): message : во время компиляции функции-члена класс шаблон "T Matrix<T>::tNorm(void) const"
+          with
+          [
+              T=double
+          ]
+D:\c\kubick\labs\CM3\main.cpp(327): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Matrix<T>::tNorm(void) const"
+          with
+          [
+              T=double
+          ]
+D:\c\kubick\labs\CM3\main.cpp(267): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrix<double>"
+D:\c\kubick\labs\CM3\main.cpp(152,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(140,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(137): message : во время компиляции функции-члена класс шаблон "T Matrix<T>::Norm(void) const"
+          with
+          [
+              T=double
+          ]
+D:\c\kubick\labs\CM3\main.cpp(269): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Matrix<T>::Norm(void) const"
+          with
+          [
+              T=double
+          ]
+D:\c\kubick\labs\CM3\main.cpp(141,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(124,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(121): message : во время компиляции функции-члена класс шаблон "Matrix<double> Matrix<double>::operator *(const Matrix<double> &) const"
+D:\c\kubick\labs\CM3\main.cpp(274): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> Matrix<double>::operator *(const Matrix<double> &) const"
+D:\c\kubick\labs\CM3\main.cpp(125,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(129,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(43,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(39): message : во время компиляции функции-члена класс шаблон "Matrix<double> &Matrix<double>::operator =(const Matrix<double> &)"
+D:\c\kubick\labs\CM3\main.cpp(269): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> &Matrix<double>::operator =(const Matrix<double> &)"
+D:\c\kubick\labs\CM3\main.cpp(44,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(31,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(30): message : во время компиляции функции-члена класс шаблон "Matrix<double> &Matrix<double>::operator =(const std::vector<std::vector<T,std::allocator<T>>,std::allocator<std::vector<T,std::allocator<T>>>> &)"
+          with
+          [
+              T=double
+          ]
+D:\c\kubick\labs\CM3\main.cpp(268): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> &Matrix<double>::operator =(const std::vector<std::vector<T,std::allocator<T>>,std::allocator<std::vector<T,std::allocator<T>>>> &)"
+          with
+          [
+              T=double
+          ]
+D:\c\kubick\labs\CM3\main.cpp(32,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(20,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(13): message : во время компиляции функции-члена класс шаблон "Matrix<double>::Matrix(unsigned int,unsigned int)"
+D:\c\kubick\labs\CM3\main.cpp(267): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double>::Matrix(unsigned int,unsigned int)"
+D:\c\kubick\labs\CM3\main.cpp(104,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(103): message : во время компиляции функции-члена класс шаблон "Matrix<double> &Matrix<double>::operator *=(const T &)"
+          with
+          [
+              T=double
+          ]
+D:\c\kubick\labs\CM3\main.cpp(115): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> &Matrix<double>::operator *=(const T &)"
+          with
+          [
+              T=double
+          ]
+D:\c\kubick\labs\CM3\main.cpp(105,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(86,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(82): message : во время компиляции функции-члена класс шаблон "Matrix<double> &Matrix<double>::operator -=(const Matrix<double> &)"
+D:\c\kubick\labs\CM3\main.cpp(97): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> &Matrix<double>::operator -=(const Matrix<double> &)"
+D:\c\kubick\labs\CM3\main.cpp(87,2): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(232,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(229): message : во время компиляции функции-члена класс шаблон "Matrix<double> Matrix<double>::Transpose(void) const"
+D:\c\kubick\labs\CM3\main.cpp(277): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> Matrix<double>::Transpose(void) const"
+D:\c\kubick\labs\CM3\main.cpp(233,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(171,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c\kubick\labs\CM3\main.cpp(271): message : выполняется компиляция ссылки на экземпляр шаблон функции "void print<double>(const Matrix<double> &)"
+D:\c\kubick\labs\CM3\main.cpp(173,27): warning C4018: <: несоответствие типов со знаком и без знака
+  CM3.vcxproj -> D:\c\kubick\labs\CM3\Debug\CM3.exe

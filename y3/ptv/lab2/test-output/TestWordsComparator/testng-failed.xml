@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestWordsComparator]">
+  <test name="WordsComparator">
+    <groups>
+      <run>
+        <include name="comparison"/>
+        <exclude name="parametric"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="cyb.ttp.lab2.Test_1"/>
+    </classes>
+  </test> <!-- WordsComparator -->
+</suite> <!-- Failed suite [TestWordsComparator] -->

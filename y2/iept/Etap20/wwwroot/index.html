@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Informatics-2020-Lab2 Banks</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Informatics-2020-Lab2 Banks</h1>
+    <h3>Add Bank</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addBank()">
+        <input type="text" id="add-name" placeholder="Name">
+        <input type="text" id="add-phone" placeholder="Bank Phone">
+        <input type="text" id="add-adress" placeholder="Bank Adress">
+        <input type="submit" value="Add">
+    </form>
+
+    <div id="editBank">
+        <h3>Edit</h3>
+        <form action="javascript:void(0);" onsubmit="updateBank()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-name">
+            <input type="text" id="edit-phone">
+            <input type="text" id="edit-adress">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Adress</th>
+        </tr>
+        <tbody id="banks"></tbody>
+    </table>
+
+    <script src="js/lab2.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getBanks();
+    </script>
+</body>
+</html>

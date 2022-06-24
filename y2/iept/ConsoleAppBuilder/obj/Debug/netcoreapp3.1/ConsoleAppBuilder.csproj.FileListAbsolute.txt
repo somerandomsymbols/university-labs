@@ -1,0 +1,12 @@
+D:\c\kubick\sharp\ConsoleAppBuilder\bin\Debug\netcoreapp3.1\ConsoleAppBuilder.exe
+D:\c\kubick\sharp\ConsoleAppBuilder\bin\Debug\netcoreapp3.1\ConsoleAppBuilder.deps.json
+D:\c\kubick\sharp\ConsoleAppBuilder\bin\Debug\netcoreapp3.1\ConsoleAppBuilder.runtimeconfig.json
+D:\c\kubick\sharp\ConsoleAppBuilder\bin\Debug\netcoreapp3.1\ConsoleAppBuilder.runtimeconfig.dev.json
+D:\c\kubick\sharp\ConsoleAppBuilder\bin\Debug\netcoreapp3.1\ConsoleAppBuilder.dll
+D:\c\kubick\sharp\ConsoleAppBuilder\bin\Debug\netcoreapp3.1\ConsoleAppBuilder.pdb
+D:\c\kubick\sharp\ConsoleAppBuilder\obj\Debug\netcoreapp3.1\ConsoleAppBuilder.AssemblyInfoInputs.cache
+D:\c\kubick\sharp\ConsoleAppBuilder\obj\Debug\netcoreapp3.1\ConsoleAppBuilder.AssemblyInfo.cs
+D:\c\kubick\sharp\ConsoleAppBuilder\obj\Debug\netcoreapp3.1\ConsoleAppBuilder.csproj.CoreCompileInputs.cache
+D:\c\kubick\sharp\ConsoleAppBuilder\obj\Debug\netcoreapp3.1\ConsoleAppBuilder.dll
+D:\c\kubick\sharp\ConsoleAppBuilder\obj\Debug\netcoreapp3.1\ConsoleAppBuilder.pdb
+D:\c\kubick\sharp\ConsoleAppBuilder\obj\Debug\netcoreapp3.1\ConsoleAppBuilder.genruntimeconfig.cache

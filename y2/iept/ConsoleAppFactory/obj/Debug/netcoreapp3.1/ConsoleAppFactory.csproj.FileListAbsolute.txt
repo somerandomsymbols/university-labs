@@ -1,0 +1,13 @@
+D:\c\kubick\sharp\ConsoleAppFactory\bin\Debug\netcoreapp3.1\ConsoleAppFactory.exe
+D:\c\kubick\sharp\ConsoleAppFactory\bin\Debug\netcoreapp3.1\ConsoleAppFactory.deps.json
+D:\c\kubick\sharp\ConsoleAppFactory\bin\Debug\netcoreapp3.1\ConsoleAppFactory.runtimeconfig.json
+D:\c\kubick\sharp\ConsoleAppFactory\bin\Debug\netcoreapp3.1\ConsoleAppFactory.runtimeconfig.dev.json
+D:\c\kubick\sharp\ConsoleAppFactory\bin\Debug\netcoreapp3.1\ConsoleAppFactory.dll
+D:\c\kubick\sharp\ConsoleAppFactory\bin\Debug\netcoreapp3.1\ConsoleAppFactory.pdb
+D:\c\kubick\sharp\ConsoleAppFactory\obj\Debug\netcoreapp3.1\ConsoleAppFactory.csprojAssemblyReference.cache
+D:\c\kubick\sharp\ConsoleAppFactory\obj\Debug\netcoreapp3.1\ConsoleAppFactory.AssemblyInfoInputs.cache
+D:\c\kubick\sharp\ConsoleAppFactory\obj\Debug\netcoreapp3.1\ConsoleAppFactory.AssemblyInfo.cs
+D:\c\kubick\sharp\ConsoleAppFactory\obj\Debug\netcoreapp3.1\ConsoleAppFactory.csproj.CoreCompileInputs.cache
+D:\c\kubick\sharp\ConsoleAppFactory\obj\Debug\netcoreapp3.1\ConsoleAppFactory.dll
+D:\c\kubick\sharp\ConsoleAppFactory\obj\Debug\netcoreapp3.1\ConsoleAppFactory.pdb
+D:\c\kubick\sharp\ConsoleAppFactory\obj\Debug\netcoreapp3.1\ConsoleAppFactory.genruntimeconfig.cache

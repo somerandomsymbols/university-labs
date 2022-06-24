@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestWordsComparator">
+	<test name="WordsComparator">
+  		<groups>
+  			<run>
+  				<include name="comparison"/>
+  				<exclude name="parametric"/>
+  			</run>
+  		</groups>
+		<classes>
+			<class name="cyb.ttp.lab2.Test_1"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

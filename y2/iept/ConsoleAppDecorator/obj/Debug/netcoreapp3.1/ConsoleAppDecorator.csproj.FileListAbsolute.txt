@@ -1,0 +1,13 @@
+D:\c\kubick\sharp\ConsoleAppDecorator\bin\Debug\netcoreapp3.1\ConsoleAppDecorator.exe
+D:\c\kubick\sharp\ConsoleAppDecorator\bin\Debug\netcoreapp3.1\ConsoleAppDecorator.deps.json
+D:\c\kubick\sharp\ConsoleAppDecorator\bin\Debug\netcoreapp3.1\ConsoleAppDecorator.runtimeconfig.json
+D:\c\kubick\sharp\ConsoleAppDecorator\bin\Debug\netcoreapp3.1\ConsoleAppDecorator.runtimeconfig.dev.json
+D:\c\kubick\sharp\ConsoleAppDecorator\bin\Debug\netcoreapp3.1\ConsoleAppDecorator.dll
+D:\c\kubick\sharp\ConsoleAppDecorator\bin\Debug\netcoreapp3.1\ConsoleAppDecorator.pdb
+D:\c\kubick\sharp\ConsoleAppDecorator\obj\Debug\netcoreapp3.1\ConsoleAppDecorator.csprojAssemblyReference.cache
+D:\c\kubick\sharp\ConsoleAppDecorator\obj\Debug\netcoreapp3.1\ConsoleAppDecorator.AssemblyInfoInputs.cache
+D:\c\kubick\sharp\ConsoleAppDecorator\obj\Debug\netcoreapp3.1\ConsoleAppDecorator.AssemblyInfo.cs
+D:\c\kubick\sharp\ConsoleAppDecorator\obj\Debug\netcoreapp3.1\ConsoleAppDecorator.csproj.CoreCompileInputs.cache
+D:\c\kubick\sharp\ConsoleAppDecorator\obj\Debug\netcoreapp3.1\ConsoleAppDecorator.dll
+D:\c\kubick\sharp\ConsoleAppDecorator\obj\Debug\netcoreapp3.1\ConsoleAppDecorator.pdb
+D:\c\kubick\sharp\ConsoleAppDecorator\obj\Debug\netcoreapp3.1\ConsoleAppDecorator.genruntimeconfig.cache

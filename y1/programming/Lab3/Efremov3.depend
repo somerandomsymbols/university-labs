@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1581059118 source:d:\c\kubick\labs\efremov3\main.cpp
+	"array.h"
+
+1581059268 d:\c\kubick\labs\efremov3\array.h
+	<bits/stdc++.h>
+	<conio.h>
+
+1580998406 d:\c\kubick\labs\efremov3\func.h
+	"array.h"
+	<conio.h>
+
+1581058501 source:d:\c\kubick\labs\efremov3\array.cpp
+	<bits/stdc++.h>
+

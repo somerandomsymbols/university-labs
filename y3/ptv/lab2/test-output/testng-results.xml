@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1671" started-at="2021-12-05T11:08:23Z" finished-at="2021-12-05T11:08:25Z">
+    <groups>
+      <group name="input">
+        <method signature="Test_0.test_0_0_open(java.lang.String, [Ljava.lang.String;)[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="test_0_0_open" class="cyb.ttp.lab2.Test_0"/>
+      </group> <!-- input -->
+      <group name="comparison">
+        <method signature="Test_1.test_1_0_compare(java.lang.String, java.lang.String, int)[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="test_1_0_compare" class="cyb.ttp.lab2.Test_1"/>
+        <method signature="Test_1.test_1_0_contains()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="test_1_0_contains" class="cyb.ttp.lab2.Test_1"/>
+      </group> <!-- comparison -->
+      <group name="parametric">
+        <method signature="Test_0.test_0_0_open(java.lang.String, [Ljava.lang.String;)[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="test_0_0_open" class="cyb.ttp.lab2.Test_0"/>
+        <method signature="Test_1.test_1_0_compare(java.lang.String, java.lang.String, int)[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="test_1_0_compare" class="cyb.ttp.lab2.Test_1"/>
+      </group> <!-- parametric -->
+    </groups>
+    <test name="Default test" duration-ms="1671" started-at="2021-12-05T11:08:23Z" finished-at="2021-12-05T11:08:25Z">
+      <class name="cyb.ttp.lab2.Test_0">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2021-12-05T13:08:23Z" finished-at="2021-12-05T13:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="beforeClass" is-config="true" duration-ms="15" started-at="2021-12-05T13:08:23Z" finished-at="2021-12-05T13:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:23Z" finished-at="2021-12-05T13:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:23Z" finished-at="2021-12-05T13:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:23Z" finished-at="2021-12-05T13:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:24Z" finished-at="2021-12-05T13:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_0_0_open(java.lang.String, [Ljava.lang.String;)[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="test_0_0_open" duration-ms="1625" started-at="2021-12-05T13:08:24Z" data-provider="dp" finished-at="2021-12-05T13:08:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1.txt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@51c65a43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_0_0_open -->
+        <test-method status="PASS" signature="test_0_0_open(java.lang.String, [Ljava.lang.String;)[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="test_0_0_open" duration-ms="0" started-at="2021-12-05T13:08:25Z" data-provider="dp" finished-at="2021-12-05T13:08:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3.txt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4e140497]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_0_0_open -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test_0_0_open(java.lang.String, [Ljava.lang.String;)[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="test_0_0_open" duration-ms="0" started-at="2021-12-05T13:08:25Z" data-provider="dp" finished-at="2021-12-05T13:08:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2.txt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@740dcae3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_0_0_open -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:cyb.ttp.lab2.Test_0@26ca61bf]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- cyb.ttp.lab2.Test_0 -->
+      <class name="cyb.ttp.lab2.Test_1">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test_1_0_contains()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="test_1_0_contains" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1_0_contains -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_1_0_compare(java.lang.String, java.lang.String, int)[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="test_1_0_compare" duration-ms="0" started-at="2021-12-05T13:08:25Z" data-provider="dp" finished-at="2021-12-05T13:08:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1_0_compare -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_1_0_compare(java.lang.String, java.lang.String, int)[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="test_1_0_compare" duration-ms="0" started-at="2021-12-05T13:08:25Z" data-provider="dp" finished-at="2021-12-05T13:08:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ba]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1_0_compare -->
+        <test-method status="PASS" signature="test_1_0_compare(java.lang.String, java.lang.String, int)[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="test_1_0_compare" duration-ms="0" started-at="2021-12-05T13:08:25Z" data-provider="dp" finished-at="2021-12-05T13:08:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1_0_compare -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cyb.ttp.lab2.Test_1@73a0f2b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-05T13:08:25Z" finished-at="2021-12-05T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- cyb.ttp.lab2.Test_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

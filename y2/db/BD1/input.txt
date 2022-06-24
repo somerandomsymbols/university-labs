@@ -1,0 +1,47 @@
+ut-m
+ut-s
+stop
+
+insert-m
+MayoClinic
+insert-m
+ClevelandClinic
+insert-m
+MassachusettsGeneralHospital
+insert-m
+TorontoGeneralHospital
+insert-m
+Charite
+insert-s
+MaryWalker 0
+insert-s
+JohnSimpson 1
+insert-s
+RexGregor 1
+insert-s
+DesmondDoss 2
+insert-s
+JohnBradley 2
+insert-s
+GenevievedeGalard 2
+ut-m
+ut-s
+del-m
+1
+del-s
+3
+ut-m
+ut-s
+insert-m
+TheJohnsHopkinsHospital
+insert-s
+CharlesL.Kelly 5
+ut-m
+ut-s
+update-m
+5 UniversitatsspitalZurich
+update-s
+6 ThomasW.Bennett
+ut-m
+ut-s
+stop

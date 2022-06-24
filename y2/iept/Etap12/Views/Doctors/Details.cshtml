@@ -1,0 +1,60 @@
+﻿@model Etap12.Doctor
+
+@{
+    ViewData["Title"] = "Детальніше";
+    ViewData["Description"] = "Info about " + @Model.DoctorName;
+}
+
+<div itemtype="http://schema.org/Person" itemscope>
+    <div class="contactinfo">
+        <h4>Контактна інформація</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-6">
+                @Html.DisplayNameFor(model => model.DoctorPhoneNumber)
+            </dt>
+            <dd class="col-sm-6" itemprop="telephone">
+                @Html.DisplayFor(model => model.DoctorPhoneNumber)
+            </dd>
+        </dl>
+    </div>
+    <h1>Лікар: @Model.DoctorName</h1>
+    <link itemprop="image" href="@Model.DoctorPhoto" />
+    <img src=@Model.DoctorPhoto alt="посилання недійсне" width="200" height="300">
+
+    <h4>Особисті дані</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DoctorName)
+        </dt>
+        <dd class="col-sm-10" itemprop="name">
+            @Html.DisplayFor(model => model.DoctorName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Education)
+        </dt>
+        <dd class="col-sm-10" itemprop="alumniOf">
+            @Html.DisplayFor(model => model.Education)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DateStartWork)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateStartWork)
+        </dd>
+    </dl>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Hospital)
+        </dt>
+        <dd class="col-sm-10" itemprop="worksFor">
+            <a asp-controller="Hospitals" asp-action="Details" asp-route-id="@Model.HospitalId">@Html.DisplayFor(model => model.Hospital.HospitalName)</a>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.DoctorId">Редагувати</a> |
+    <a asp-controller="Doctors" asp-action="Index">Назад</a>
+</div>
